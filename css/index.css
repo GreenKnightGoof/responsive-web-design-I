@@ -210,9 +210,69 @@ h1, h2, h3, h4, h5 {
   }
 
 @media (max-width: 800px){
-
+    .container {
+        margin: 0 auto;
+    }
+    .cta img {
+        visibility: hidden;
+    }
+    .cta-text-two {
+        margin-left: 43%;
+    }
+    .main-content {
+        width: 100%;
+        margin-left: 13%;
+    }
+    .top-content {
+        width: 100%;
+    }
+    .bottom-content {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+        margin-left: 13%;
+    }
+    header nav {
+        margin-left: 13%;
+    }
+    footer {
+        margin-left: 23%;
+    }
+   
 }
 @media (max-width: 500px){
+    body {
+        width: 100%;
+        margin: 0;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5% 0 0 0;
+    }
+    nav .logo {
+        order: -6;
+        margin-right: 7%;
+    }
+    header nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    header nav a {
+        width: 100%;
+        border-bottom: 1px solid slategrey;
+        text-align: center;
+        padding: 4% 0;
+        font-size: x-large;
+    }
 
 }
 
